@@ -199,3 +199,6 @@ Caused by: java.lang.IllegalStateException: The file is locked: nio:C:/Users/kan
 	at org.h2.mvstore.FileStore.open(FileStore.java:172)
 	at org.h2.mvstore.MVStore.<init>(MVStore.java:381)
 	... 67 more
+2022-10-08 03:41:36 jdbc[124]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found; SQL statement:
+select username,password,enabled from users where username = ? [42102-200]
